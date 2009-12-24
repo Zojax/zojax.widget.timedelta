@@ -1,0 +1,17 @@
+<span tal:attributes="id view/id; klass view/klass">
+  <select tal:attributes="id string:${view/id}-hour;
+                          name string:${view/name}.hour;">
+    <option tal:repeat="value view/hourValues"
+	    tal:content="value/title" 
+	    tal:attributes="value value/token;
+			    selected python:value.value == view.hours"/>
+  </select>
+  &nbsp;:&nbsp;
+  <select tal:attributes="id string:${view/id}-minute;
+                          name string:${view/name}.minute;">
+    <option tal:repeat="value view/minuteValues"
+	    tal:content="value/title"
+	    tal:attributes="value value/token;
+			    selected python:value.value == view.minutes"/>
+  </select>
+</span>
