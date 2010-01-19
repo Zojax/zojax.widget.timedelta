@@ -1,20 +1,8 @@
-=======
-CHANGES
-=======
-
-0.1.2 (2009-11-22)
+1.0.2 (Unreleased)
 ------------------
 
-- Removed debug code
 
-
-0.1.1 (2009-11-01)
+1.0.1 (2010-01-19)
 ------------------
 
-- Fixed minutes selection rendering
-
-
-0.1.0 (2009-10-28)
-------------------
-
-- Initial release.
+- zojax initial release
